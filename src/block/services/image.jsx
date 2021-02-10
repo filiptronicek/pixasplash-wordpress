@@ -29,20 +29,6 @@ class ImageService  {
                             }
                     })
                 }
-            },
-            {
-                name: 'giphy',
-                url: 'https://api.giphy.com/v1/gifs/search?api_key=sehSTW0XelmwiRPYqQsQS5CrpsPWJC1h',
-                paramQuery: 'q',
-                paramLimit: 'limit',
-                paramOffset: 'offset',
-                transform: (giphyImagesObject) => {
-                    return giphyImagesObject.data.map((giphyImageObject) => {
-                            return {
-                                url: giphyImageObject.images.original.url
-                            }
-                    })
-                }
             }
         ]
     }
