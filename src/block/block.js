@@ -25,7 +25,7 @@ registerBlockType( 'ig/block-free-stock-images', {
 	icon: 'images-alt2',
 	category: 'common',
 	keywords: [
-		__( 'giphy, pixabay, unsplash free stock image' )
+		__( 'pixabay, unsplash free stock image' )
 	],
 
     attributes: {
