@@ -20,7 +20,7 @@
 - Runs once and reports back the gzip file sizes of the produced code.
 
 ### 👉  `npm run bundle`
-- create a production ready bundle (`pixa-pexels-wordpress.zip`)
+- create a production ready bundle (`pixasplash-wordpress.zip`)
 
 ### 👉  `npm run eject`
 - Use to eject your plugin out of `create-guten-block`.
