@@ -13,8 +13,8 @@ class ImageService  {
                     return pixabayImagesObject.hits.map((pixabayImageObject) => {
                             return {
                                 url: pixabayImageObject.largeImageURL
-                            }
-                    })
+                            };
+                    });
                 }
             },
             {
@@ -26,43 +26,43 @@ class ImageService  {
                     return unsplashImagesObject.results.map((unsplashImageObject) => {
                             return {
                                 url: unsplashImageObject.urls.raw
-                            }
-                    })
+                            };
+                    });
                 }
             }
-        ]
+        ];
     }
 
     search (query, resolve, page=1, providerNames=[], per_page=10) {
-        const requestedProviderNames = []
+        const requestedProviderNames = [];
         this.providers.map((provider) => {
 
             if (providerNames.indexOf(provider.name) > -1) {
-                const q = encodeURIComponent(query)
-                requestedProviderNames.push(provider.name)
+                const q = encodeURIComponent(query);
+                requestedProviderNames.push(provider.name);
 
-                const paginationParams = ''
+                const paginationParams = '';
                 if (provider.paramLimit && provider.paramLimit != null) {
-                    const offset = per_page*(page-1)
-                    const paginationParams = `${provider.paramLimit}=${per_page}&${provider.paramOffset}=${offset}`
+                    const offset = per_page*(page-1);
+                    const paginationParams = `${provider.paramLimit}=${per_page}&${provider.paramOffset}=${offset}`;
                 } else {
-                    const paginationParams = `${provider.paramPage}=${page}`
+                    const paginationParams = `${provider.paramPage}=${page}`;
                 }
 
-                const url = `${provider.url}&${provider.paramQuery}=${q}&${paginationParams}`
+                const url = `${provider.url}&${provider.paramQuery}=${q}&${paginationParams}`;
 
                 fetch(url)
                 .then(res => res.json())
                 .then(
                     (result) => {
-                        const results = provider.transform(result)
-                        resolve(provider.name, results)
+                        const results = provider.transform(result);
+                        resolve(provider.name, results);
                     },
-                    (error) => { resolve(provider, null) }
-                )
+                    (_error) => { resolve(provider, null); }
+                );
             }
-        })
-        return requestedProviderNames
+        });
+        return requestedProviderNames;
     }
 
 }
