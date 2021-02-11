@@ -1,6 +1,5 @@
-[![CircleCI](https://circleci.com/gh/zeopix/free-stock-images-wordpress-plugin.svg?style=svg)](https://circleci.com/gh/zeopix/free-stock-images-wordpress-plugin)
-
-### Free Stock Image wordpress gutenberg plugin
+# Free Stock Image wordpress gutenberg plugin
+![Node.js CI](https://github.com/filiptronicek/pixa-pexels-wordpress/workflows/Node.js%20CI/badge.svg)
 
 ![Demo](https://s3.eu-west-3.amazonaws.com/static-ivanguillen.me/free-stock-images-demo.gif)
 
