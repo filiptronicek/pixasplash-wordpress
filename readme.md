@@ -17,6 +17,9 @@
 - Use to build production code for your block inside `dist` folder.
 - Runs once and reports back the gzip file sizes of the produced code.
 
+## 👉  `npm run bundle`
+- create a production ready bundle (`pixa-pexels-wordpress.zip`)
+
 ## 👉  `npm run eject`
 - Use to eject your plugin out of `create-guten-block`.
 - Provides all the configurations so you can customize the project as you want.
