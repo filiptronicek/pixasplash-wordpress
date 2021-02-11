@@ -1,13 +1,13 @@
 {
-  "name": "free-stock-images-ig-guten-block",
+  "name": "pixasplash-wordpress.zip",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "test": "jest",
     "start": "cgb-scripts start",
     "build": "cgb-scripts build",
-	"eject": "cgb-scripts eject",
-	"bundle": "npm run build && zip -r pixa-pexels-wordpress.zip . -x node_modules/\\* -q"
+    "eject": "cgb-scripts eject",
+    "bundle": "npm run build && zip -r pixasplash-wordpress.zip . -x node_modules/\\* -q"
   },
   "dependencies": {
     "@material-ui/core": "^4.10.2",
