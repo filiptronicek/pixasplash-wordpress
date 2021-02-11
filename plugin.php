@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Free Stock Images and Videos - Giphy, Pixabay, Unsplash...
  * Plugin URI: https://github.com/zeopix/free-stock-images-wordpress-plugin
- * Description: Free Stock Images — is a Gutenberg plugin that offers you the possibility to quickly stick license free images and gifs from Giphy, Pixabay, Unsplash and more incoming
+ * Description: Free Stock Images — is a Gutenberg plugin that offers you the possibility to quickly stick license free images and gifs from Pixabay & Unsplash
  * Author: Iván Guillén <hello@ivanguillen.me>
  * Author URI: https://ivanguillen.me/
  * Version: 0.0.1
