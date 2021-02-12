@@ -6,7 +6,7 @@ class ImageService  {
         this.providers = providers.length > 0 ? providers : [
             {
                 name: 'pixabay',
-                url: 'https://pixabay.com/api/?key=17240057-89cee718a24862dfe57e1a01f',
+                url: 'https://pixabay.com/api/?key=17240057-89cee718a24862dfe57e1a01f&safesearch=true',
                 paramQuery: 'q',
                 paramPage: 'page',
                 transform: (pixabayImagesObject) => {
