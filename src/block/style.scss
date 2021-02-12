@@ -4,9 +4,13 @@
  * CSS for both Frontend+Backend.
  */
 
-.wp-block-ig-block-free-stock-images  {
+.wp-block-ig-block-free-stock-images {
   color: $black;
   margin: 0 auto;
   max-width: 740px;
   padding: 2rem;
+
+  & img {
+	  max-width: 100%;
+  }
 }
