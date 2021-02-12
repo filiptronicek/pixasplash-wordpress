@@ -19,7 +19,7 @@ class ImageService  {
             },
             {
                 name: 'unsplash',
-                url: 'https://api.unsplash.com/search/photos?client_id=dk6feFLrhzpPSicZlGgR55tHuOS_qkfJDH6Jo8XYP_8',
+                url: 'https://api.unsplash.com/search/photos?client_id=dk6feFLrhzpPSicZlGgR55tHuOS_qkfJDH6Jo8XYP_8&content_filter=high',
                 paramQuery: 'query',
                 paramPage: 'page',
                 transform: (unsplashImagesObject) => {
