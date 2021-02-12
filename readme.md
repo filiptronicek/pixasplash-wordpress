@@ -1,4 +1,5 @@
-# Free Stock Image wordpress gutenberg plugin
+# A stock image Wordpress plugin
+A WordPress plugin that searches Pixabay and Unsplash and gives you a nice Gutenberg interface to interact with it.
 ![Node.js CI](https://github.com/filiptronicek/pixa-pexels-wordpress/workflows/Node.js%20CI/badge.svg)
 
 
