@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: Free Stock Images and Videos - Giphy, Pixabay, Unsplash...
  * Plugin URI: https://github.com/zeopix/free-stock-images-wordpress-plugin
@@ -13,11 +14,11 @@
  */
 
 // Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit;
 }
 
 /**
  * Block Initializer.
  */
-require_once plugin_dir_path( __FILE__ ) . 'src/init.php';
+require_once plugin_dir_path(__FILE__) . 'src/init.php';
