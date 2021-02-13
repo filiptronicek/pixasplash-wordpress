@@ -5,7 +5,7 @@
  * Description: Free Stock Images — is a Gutenberg plugin that offers you the possibility to quickly stick license free images and gifs from Pixabay & Unsplash
  * Author: Iván Guillén <hello@ivanguillen.me>
  * Author URI: https://ivanguillen.me/
- * Version: 0.0.2
+ * Version: 0.0.3
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  *
