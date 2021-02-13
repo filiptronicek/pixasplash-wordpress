@@ -5,7 +5,7 @@ class ImageService  {
     constructor(providers = []) {
         this.providers = providers.length > 0 ? providers : [
             {
-                name: 'pixabay',
+                name: 'Pixabay',
                 url: 'https://pixabay.com/api/?key=17240057-89cee718a24862dfe57e1a01f&safesearch=true',
                 paramQuery: 'q',
                 paramPage: 'page',
@@ -18,7 +18,7 @@ class ImageService  {
                 }
             },
             {
-                name: 'unsplash',
+                name: 'Unsplash',
                 url: 'https://api.unsplash.com/search/photos?client_id=dk6feFLrhzpPSicZlGgR55tHuOS_qkfJDH6Jo8XYP_8&content_filter=high',
                 paramQuery: 'query',
                 paramPage: 'page',
