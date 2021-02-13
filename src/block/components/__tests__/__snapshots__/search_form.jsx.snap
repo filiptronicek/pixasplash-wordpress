@@ -54,7 +54,7 @@ Array [
             checked={true}
             className="PrivateSwitchBase-input-4"
             data-indeterminate={false}
-            name="pixabay"
+            name="Pixabay"
             onChange={[Function]}
             type="checkbox"
           />
@@ -76,7 +76,7 @@ Array [
       <span
         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
       >
-        pixabay
+        Pixabay
       </span>
     </label>
     <label
@@ -105,7 +105,7 @@ Array [
             checked={true}
             className="PrivateSwitchBase-input-4"
             data-indeterminate={false}
-            name="unsplash"
+            name="Unsplash"
             onChange={[Function]}
             type="checkbox"
           />
@@ -127,7 +127,7 @@ Array [
       <span
         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
       >
-        unsplash
+        Unsplash
       </span>
     </label>
   </div>,
@@ -193,7 +193,7 @@ Array [
       <span
         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
       >
-        pixabay
+        Pixabay
       </span>
     </label>
     <label
@@ -222,7 +222,7 @@ Array [
             checked={true}
             className="PrivateSwitchBase-input-4"
             data-indeterminate={false}
-            name="unsplash"
+            name="Unsplash"
             onChange={[Function]}
             type="checkbox"
           />
@@ -244,7 +244,7 @@ Array [
       <span
         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
       >
-        unsplash
+        Unsplash
       </span>
     </label>
   </div>,
